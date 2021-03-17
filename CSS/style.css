@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&display=swap');
+
 html {
     height: 100%;
     
@@ -9,11 +11,11 @@ body{
 }
 
 .header-photo{
-    height: 150px;
-    border: 7px solid #FFF;
+    height: 160px;
+    border: 3px solid #FFF;
     border-radius: 35px; 
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
-    margin: -35px 0 0 30px;
+    margin: -35px 0 0 26px;
 }
 
 .container {
@@ -36,10 +38,11 @@ body{
     margin: auto;
     background-color: #FFF;
     border-radius: 0 25px 25px 0;
+    height: 160px !important;
 }
 
 .bg {
-    background-image: url("../Images/image_header.jpg");  
+    background-image: url("../Images/img_parallax.jpg");  
     height: 50%;
     opacity: 100%;  
     background-position: center;
@@ -51,10 +54,70 @@ body{
     margin-top: -83px;
 }
 
+.header-name{
+    font-family: 'Lobster', cursive;
+    margin: -95px 0 0 211px;
+    color: #343a40;
+}
+
+.header-position{
+    margin: 6px 0 0 211px;
+    font-family: 'Roboto Slab', serif;
+    color: #5E6E80;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-contact{
+    margin: 6px 0 0 211px;
+}
+
+.item-contact{
+    font-size: 20px !important; 
+    color: #5E6E80;
+    margin: 0 9px;
+}
+
+.item-contact:hover{
+    color: #0477fc;
+}
+
+.btn-custom{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 28px;
+    height: 28px;
+}
+
+.btn-Icon{
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+.content-grp{
+    margin-top: 10px !important;
+    display: inline-block;
+}
+
+.header-item{
+    font-family: 'Lobster', cursive;
+    color: #5E6E80;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
+
+.content-item{
+    font-family: 'Roboto Slab', serif;
+    color: #65686d;
+    font-size: 16px;
+    margin: 0;
+}
+
 @media (min-width: 768px) and (max-width: 1199px){
     .bg {
         background-image: url("../Images/img_parallax.jpg");  
-        height: 30rem;
+        height: 20rem;
         opacity: 100%;  
         background-position: center;
         background-repeat: no-repeat;
@@ -63,7 +126,7 @@ body{
 
     .header-photo{
         height: 150px;
-        border: 7px solid #FFF;
+        border: 3px solid #FFF;
         border-radius: 35px; 
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
         display: block;
@@ -73,21 +136,49 @@ body{
     }
     
     .container {
-        width: 800px !important;
+        width: 640px !important;
     }
 
     .content-left{
-        width: 800px !important;
+        width: 640px !important;
         border-radius: 25px 25px 0 0;
         margin: auto;
-        background-color: aqua;
+        background-color: #FFF;
+        text-align: center;
+        height: 200px !important;
     }
     
     .content-right{
-        width: 800% !important;
+        width: 640% !important;
         border-radius: 0 0 25px 25px;
         margin: auto;
-        background-color: aqua;
+        background-color: #FFF;
+        height: 200px !important;
+    }
+
+    .header-name{
+        margin-top: 15px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-position{
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-contact{
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grp-left{
+        margin-left: 70px;
     }
 }
 
@@ -103,7 +194,7 @@ body{
 
     .header-photo{
         height: 150px;
-        border: 7px solid #FFF;
+        border: 3px solid #FFF;
         border-radius: 35px; 
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
         display: block;
@@ -120,6 +211,8 @@ body{
         width: 100% !important;
         border-radius: 25px 25px 0 0;
         margin: auto;
+        text-align: center;
+        height: 200px !important;
     }
     
     .content-right{
@@ -127,11 +220,36 @@ body{
         border-radius: 0 0 25px 25px;
         margin: auto;
     }
+
+    .header-name{
+        margin-top: 15px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-position{
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-contact{
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grp-left{
+        margin-left: 70px;
+    }
 }
 
 @media (max-width: 576px){
     .bg {
-        background-image: url("../Images/image_header.jpg");  
+        background-image: url("../Images/img_parallax.jpg");  
         height: 50%;
         opacity: 100%;  
         background-position: center;
@@ -141,7 +259,7 @@ body{
 
     .header-photo{
         height: 150px;
-        border: 7px solid #FFF;
+        border: 3px solid #FFF;
         border-radius: 35px; 
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
         display: block;
@@ -159,16 +277,53 @@ body{
         width: 100% !important;
         border-radius: 25px 25px 0 0;
         margin: auto;
+        text-align: center;
+        height: 200px !important;
     }
     
     .content-right{
         width: 100% !important;
         border-radius: 0 0 25px 25px;
         margin: auto;
+        height: 246px !important;
     }
 
     .gutter-top{
         margin-top: -120px;
+    }
+
+    .header-name{
+        margin-top: 15px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-position{
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-contact{
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-item{
+        margin: 5px 0 0 45px;
+    }
+
+    .content-item{
+        margin: 0 0 0 45px;
+    }
+
+    .grp-left{
+        margin-top: 0;
+        margin-left: 0;
     }
 }
 
