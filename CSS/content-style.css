@@ -1,0 +1,25 @@
+.icon-custom{
+    width: 30px;
+    margin: 0 10px;
+}
+
+.head-content{
+    margin: 30px 0 0 0;
+    color: #28a745;
+}
+
+.sub-content{
+    margin: 5px 30px;
+}
+
+.school-name{
+    margin: 5px 50px;
+}
+
+.ul-custom{
+    list-style-image: url(../Images/crosshair.png);
+} 
+
+#muc_tieu, #hoc_van, #so_thich, #moitruong_phattrien, #cong_nghe{
+    list-style-image: url(../Images/feather.png);
+}
