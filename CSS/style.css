@@ -114,6 +114,10 @@ body{
     margin: 0;
 }
 
+.menu-item{
+    font-family: 'Lobster', cursive;
+}
+
 #menu-group{
     padding: 20px 10px 0 10px;
 }
