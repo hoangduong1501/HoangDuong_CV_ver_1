@@ -22,7 +22,7 @@ body{
     width: 1106px !important;
     background-color: #F3F4F9;
     border-radius: 25px;
-    height: 160px !important;
+    /* height: 160px !important; */
 }
 
 .content-left{
@@ -112,6 +112,17 @@ body{
     color: #65686d;
     font-size: 16px;
     margin: 0;
+}
+
+#menu-group{
+    padding: 20px 10px 0 10px;
+}
+
+#content-group{
+    background-color: #FFF;
+    height: 550px !important;
+    margin: 5px auto;
+    width: 100% i !important;
 }
 
 @media (min-width: 768px) and (max-width: 1199px){
@@ -286,6 +297,86 @@ body{
         border-radius: 0 0 25px 25px;
         margin: auto;
         height: 246px !important;
+    }
+
+    .gutter-top{
+        margin-top: -120px;
+    }
+
+    .header-name{
+        margin-top: 15px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-position{
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-contact{
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-item{
+        margin: 5px 0 0 45px;
+    }
+
+    .content-item{
+        margin: 0 0 0 45px;
+    }
+
+    .grp-left{
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 540px){
+    .bg {
+        background-image: url("../Images/img_parallax.jpg");  
+        height: 50%;
+        opacity: 100%;  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header-photo{
+        height: 150px;
+        border: 3px solid #FFF;
+        border-radius: 35px; 
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -60px;
+    }
+    
+    .container {
+        width: 94% !important;
+        margin: auto;
+    }
+
+    .content-left{
+        width: 100% !important;
+        border-radius: 25px 25px 0 0;
+        margin: auto;
+        text-align: center;
+        height: 200px !important;
+    }
+    
+    .content-right{
+        width: 100% !important;
+        border-radius: 0 0 25px 25px;
+        margin: auto;
+        height: 150px !important;
     }
 
     .gutter-top{
