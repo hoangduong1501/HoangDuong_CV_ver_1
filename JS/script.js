@@ -39,7 +39,7 @@ $('#btn_KinhNghiem').click(function(){
 $('#btn_KyNang').click(function(){
     $('.nav-link').removeClass('active');
     $(this).addClass('active');
-    $.ajax({url: "https://hoangduong1501.github.io/HoangDuong_CV_ver_1/Infor_Tab.html", 
+    $.ajax({url: "https://hoangduong1501.github.io/HoangDuong_CV_ver_1/Skills_Tab.html", 
         success: function(result){
             $("#div1").html(result);
         }
